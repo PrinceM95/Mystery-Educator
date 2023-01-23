@@ -38,9 +38,9 @@ public class Instrument {
         return instrumentName;
     }
 
-    public String getImage() {
-        return image;
-    }
+//    public String getImage() {
+//        return image;
+//    }
 
     public String getDescription() {
         return description;
@@ -55,11 +55,11 @@ public class Instrument {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Instrument that = (Instrument) o;
-        return Objects.equals(id, that.id) && Objects.equals(instrumentName, that.instrumentName) && Objects.equals(image, that.image) && Objects.equals(description, that.description) && Objects.equals(famousArtist, that.famousArtist);
+        return Objects.equals(id, that.id) && Objects.equals(instrumentName, that.instrumentName) && Objects.equals(description, that.description) && Objects.equals(famousArtist, that.famousArtist);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, instrumentName, image, description, famousArtist);
+        return Objects.hash(id, instrumentName, description, famousArtist);
     }
 }
