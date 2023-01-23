@@ -12,7 +12,7 @@ public class Instrument {
     @GeneratedValue
     private Long id;
     private String instrumentName;
-    private String image;
+//    private String image;
     private String description;
     private String famousArtist;
 
