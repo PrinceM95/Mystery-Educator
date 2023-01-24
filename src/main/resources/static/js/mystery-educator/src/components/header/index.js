@@ -7,7 +7,7 @@ const Header = () => (
         <h1>Mystery Educator</h1>
         <ul className={style.navList}>
             <NavLink to='/'>Home</NavLink>
-            <NavLink to='/about'>The Devs</NavLink>
+            <NavLink to='/contact'>The Devs</NavLink>
             <a href='http://127.0.0.1:5500/index.html' target='_blank'>JAC Enterprises</a>
         </ul>
     </div>
