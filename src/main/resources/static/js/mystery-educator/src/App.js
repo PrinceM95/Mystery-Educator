@@ -9,11 +9,11 @@ import Footer from './components/footer';
 function App() {
   return (
     <BrowserRouter>
-    <Header />
-    <div className={style.page}>
-      <PageSwitch />
-    </div>
-    <Footer />
+      <Header />
+      <div className={style.page}>
+        <PageSwitch />
+      </div>
+      <Footer />
     </BrowserRouter>
   );
 }
