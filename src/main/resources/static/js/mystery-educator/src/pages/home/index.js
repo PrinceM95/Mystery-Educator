@@ -1,14 +1,18 @@
 import React from 'react';
-// import style from './style.module.scss';
-// import {BrowserPage} from "react-router-dom";
+import style from './style.module.scss';
 
 const HomePage = () => {
-
     return (
-        <div>
-            <h2>This is the home page</h2>
-        </div>
+        <span className={style.home}>
+            {/* <div id="bottom"> Jac's Mystery Educator</div> */}
+            {/* <img src={img} alt= " " /> */}
+        </span>
     );
+
+// new CircleType(document.getElementById('demo2'))
+//     .dir(-1)
+//     .radius(384);
+
 }
 
 export default HomePage;

@@ -3,7 +3,7 @@ import style from './style.module.scss';
 
 const Footer = () => (
     <div className={style.footer}>
-        <small>&copy; WCCI 2022</small>
+        <div>&copy; WCCI 2022</div>
         {/* <ul className={style.socialList}>
             <li>Github</li>
             <li>LinkedIn</li>

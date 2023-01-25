@@ -2,10 +2,8 @@ import React from "react";
 
 const ContactPage = () => {
     return (
-        <div>
-            <h2>Meet the Devs</h2>
-        </div>
+            <h2><center>Meet the Developers</center></h2>
     );
-}
+};
 
 export default ContactPage;
