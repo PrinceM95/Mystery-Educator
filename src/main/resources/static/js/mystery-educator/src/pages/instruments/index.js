@@ -24,18 +24,16 @@ const InstrumentsPage = () => {
 
         return () => clearTimeout(timer);
 
-      
-
     }, [instruments]);
 
     return (
         <div>
             <h2>Our Instruments Page</h2>
-            {loading ? <h3>Loading...</h3> : instruments.map(instrument => {
+            {loading ? <h3>Loading...</h3> : instruments.map(instrument => (
                 <a key={instrument.id} href={`instruments.${instrument.id}`}>
                     <p>{instrument.instrumentName}</p>
                 </a>
-            })}
+            ))}
         </div>
     );
 
