@@ -4,8 +4,7 @@ import style from './style.module.scss';
 const HomePage = () => {
     return (
         <span className={style.home}>
-            {/* <div id="bottom"> Jac's Mystery Educator</div> */}
-            {/* <img src={img} alt= " " /> */}
+            <div id="bottom"> Jac's Mystery Educator</div>
         </span>
     );
 
