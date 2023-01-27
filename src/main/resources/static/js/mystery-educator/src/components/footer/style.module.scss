@@ -1,26 +1,19 @@
 .footer{
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: bold;
+    background-color: black;
+    color: gold;
+    height: 7rem;
     align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    width: 75%;
+    // position: relative;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    // width: 100%;
+    // min-height: 100%;
 }
 
-.socialList{
-    display: flex;
-    & li{
-        align-items: center;
-        border: 1px solid black;
-        border-radius: 6px;
-        display: flex;
-        justify-content: center;
-        list-style-type: none;
-        margin: 0 20px;
-        padding: 2px;
-    }
 
-    & li:hover{
-        background-color: lightblue;
-        transition: .5s;
-    }
-}

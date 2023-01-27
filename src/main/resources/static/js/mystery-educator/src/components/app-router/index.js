@@ -4,6 +4,7 @@ import ContactPage from '../../pages/contact';
 import HomePage from '../../pages/home'
 import InstrumentPage from '../../pages/instrument';
 import InstrumentsPage from '../../pages/instruments';
+import NasaPage from '../../pages/nasa';
 import React from 'react';
 import TableOfContentsPage from '../../pages/table-of-contents';
 
