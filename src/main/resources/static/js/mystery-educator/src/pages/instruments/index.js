@@ -35,7 +35,7 @@ const InstrumentsPage = () => {
     return (
         <div>
             <h2>Our Instruments Page</h2>
-        <div class = "nasa_icons">
+        <div class = "instrument_icons">
             <div><img src={guitar} className={style.icon_img} alt="Nasa Icon 1"></img></div>
             <div><img src={piano} className={style.icon_img2} alt="Nasa Icon 1"></img></div>
             <div><img src={violin} className={style.icon_img3} alt="Nasa Icon 1"></img></div>
@@ -43,7 +43,7 @@ const InstrumentsPage = () => {
             <div><img src={flute} className={style.icon_img5} alt="Nasa Icon 1"></img></div>
         </div>
             {loading ? <h3>Loading...</h3> : instruments.map(instrument => (
-                <a key={instrument.id} href={`instruments.${instrument.id}`}>
+                <a key={instrument.id} href={`instruments/${instrument.id}`}>
                     <p>{instrument.instrumentName}</p>
                 </a>
             ))}
