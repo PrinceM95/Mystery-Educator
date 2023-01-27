@@ -3,9 +3,11 @@ import style from './style.module.scss';
 
 const HomePage = () => {
     return (
-        <span className={style.home}>
-            <div id="bottom"> Jac's Mystery Educator</div>
-        </span>
+        <div className={style.home}>
+            <div id={style.page_title}> Jac's Mystery Educator </div>
+            <div id={style.page_quote}> "Vincit Qui Se Vincit" </div>
+        </div>
+        
     );
 
 // new CircleType(document.getElementById('demo2'))
