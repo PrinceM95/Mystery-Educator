@@ -4,7 +4,7 @@ import ContactPage from '../../pages/contact';
 import HomePage from '../../pages/home'
 import InstrumentPage from '../../pages/instrument';
 import InstrumentsPage from '../../pages/instruments';
-import NasaPage from '../../pages/nasa';
+import NasaPage from '../../pages/nasa-missions';
 import React from 'react';
 import TableOfContentsPage from '../../pages/table-of-contents';
 
@@ -15,6 +15,7 @@ const PageSwitch = () => (
         <Route exact path={'/contact'} element={<ContactPage />} />
         <Route exact path={'/instruments'} element={<InstrumentsPage />} />
         <Route exact path={'/instruments/:id'} element={<InstrumentPage />} />
+        <Route exact path={'/nasa'} element={<NasaPage />} />
     </Routes>
 );
 
