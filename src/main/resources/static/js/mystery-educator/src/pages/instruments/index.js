@@ -35,18 +35,18 @@ const InstrumentsPage = () => {
     return (
         <div>
             <h2>Our Instruments Page</h2>
-        <div class = "instrument_icons">
-            <div><img src={guitar} className={style.icon_img} alt="guitar"></img></div>
-            <div><img src={piano} className={style.icon_img2} alt="piano"></img></div>
-            <div><img src={violin} className={style.icon_img3} alt="violin"></img></div>
-            <div><img src={drums} className={style.icon_img4} alt="drums"></img></div>
-            <div><img src={flute} className={style.icon_img5} alt="flute"></img></div>
+        <div className={style.instrument_icons}> 
+            <span><img src={guitar} className={style.icon_img} alt="guitar"></img></span>
+            <span><img src={piano} className={style.icon_img2} alt="piano"></img></span>
+            <span><img src={violin} className={style.icon_img3} alt="violin"></img></span>
+            <span><img src={drums} className={style.icon_img4} alt="drums"></img></span>
+            <span><img src={flute} className={style.icon_img5} alt="flute"></img></span>
         </div>
-            {loading ? <h3>Loading...</h3> : instruments.map(instrument => (
+            {/* {loading ? <h3>Loading...</h3> : instruments.map(instrument => (
                 <a key={instrument.id} href={`instruments/${instrument.id}`}>
                     <p>{instrument.instrumentName}</p>
-                </a>
-            ))}
+                </a> */}
+            {/* ))} */}
         </div>
         
     );

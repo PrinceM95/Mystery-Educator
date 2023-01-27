@@ -1,4 +1,39 @@
 .profile_img{
     max-width: 300px;
-    height: auto;
+    height: 250px;
+
+}
+
+.contact_page {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile_column {
+    margin-left: 2rem;
+    width: 300px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.personal_description {
+    color: white;
+    text-align: justify;
+    background: brown;
+}
+
+.position_title {
+    color: white;
 }

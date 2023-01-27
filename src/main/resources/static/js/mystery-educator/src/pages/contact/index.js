@@ -6,7 +6,7 @@ import profilePrince from '../../assets/prince_photo.jpg';
 
 const ContactPage = () => {
     return (
-        <div>
+        <div className={style.contact_page}>
             <h2>Meet the Devs</h2>
             <section className={style.profiles}>
                 <article className={style.profile_column}>

@@ -11,11 +11,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: gold;
 }
 
-#bottom {
+#page_title, #page_quote {
+    color: gold;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 25px;
+}
+
+#page_quote {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 150px;
+    left: 840px;
 }
