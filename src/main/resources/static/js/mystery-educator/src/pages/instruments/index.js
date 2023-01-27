@@ -36,11 +36,11 @@ const InstrumentsPage = () => {
         <div>
             <h2>Our Instruments Page</h2>
         <div class = "instrument_icons">
-            <div><img src={guitar} className={style.icon_img} alt="Nasa Icon 1"></img></div>
-            <div><img src={piano} className={style.icon_img2} alt="Nasa Icon 1"></img></div>
-            <div><img src={violin} className={style.icon_img3} alt="Nasa Icon 1"></img></div>
-            <div><img src={drums} className={style.icon_img4} alt="Nasa Icon 1"></img></div>
-            <div><img src={flute} className={style.icon_img5} alt="Nasa Icon 1"></img></div>
+            <div><img src={guitar} className={style.icon_img} alt="guitar"></img></div>
+            <div><img src={piano} className={style.icon_img2} alt="piano"></img></div>
+            <div><img src={violin} className={style.icon_img3} alt="violin"></img></div>
+            <div><img src={drums} className={style.icon_img4} alt="drums"></img></div>
+            <div><img src={flute} className={style.icon_img5} alt="flute"></img></div>
         </div>
             {loading ? <h3>Loading...</h3> : instruments.map(instrument => (
                 <a key={instrument.id} href={`instruments/${instrument.id}`}>
