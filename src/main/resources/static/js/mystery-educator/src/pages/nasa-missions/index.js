@@ -22,7 +22,7 @@ const NasaPage = () => {
 
     const timer = setTimeout(() => {
       !jamesWebb && fetchJamesWebbData();
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [jamesWebb]);
@@ -39,7 +39,7 @@ const NasaPage = () => {
 
     const timer = setTimeout(() => {
       !apollo && fetchApolloData();
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [apollo]);
@@ -56,7 +56,7 @@ const NasaPage = () => {
 
     const timer = setTimeout(() => {
       !curiosity && fetchCuriosityData();
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [curiosity]);
@@ -73,7 +73,7 @@ const NasaPage = () => {
 
     const timer = setTimeout(() => {
       !voyager && fetchVoyagerData();
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [voyager]);
