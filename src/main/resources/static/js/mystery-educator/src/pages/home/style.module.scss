@@ -1,9 +1,57 @@
+// @import "react-slideshow-image/dist/styles.css";
+
+/* Slideshow */
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+
+.slide {
+    display: inline-block;
+
+    height: 200px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+
+// .each_slide_effect {
+//     display: inline-block;
+//     justify-content: center;
+//     width: 100%;
+//     height: 100%;
+//     align-items: center;
+//     position: relative;
+//     border-radius: 10px;
+//     background-position: center;
+//     background-size: "cover";
+//     border-radius: 50%;
+// }
 
 img {
     width: 100%;
     height: 100%;
     padding: 5px;
     float: center;
+    max-width: 200px;
+    height: 200px;
+}
+
+.star_img{
+    max-width: 800px;
+    height: 550px;
+    border-radius: 25px;
+    position: absolute;
+    top: 267px;
+    left: 730px;
 }
 
 body {
@@ -13,15 +61,25 @@ body {
     background-size: cover;
 }
 
+#page_title {
+    height: 45vh;
+    bottom: 725px;
+}
+
 #page_title, #page_quote {
-    color: gold;
+    color: white;
     text-align: center;
     margin-top: 2rem;
-    font-size: 25px;
+    font-size: 45px;
+    bottom: 725px;
 }
 
 #page_quote {
     position: absolute;
-    bottom: 150px;
-    left: 840px;
+    bottom: 250px;
+    left: 750px;
+    font-size: 45px;
+    background: brown;
+    box-shadow: 4px 4px 8px white, -4px -4px 8px white;
+    border-radius: 25px;
 }
