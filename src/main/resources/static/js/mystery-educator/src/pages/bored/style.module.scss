@@ -1,0 +1,55 @@
+div{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.activity_section{
+    
+    background-color: rgba(38, 37, 37, 0.4);
+    margin: 0 10%;
+    padding-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.activity_header{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.activity{
+    display: block;
+    text-align: center;
+    
+}
+.activity_button{
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.activity_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(220, 220, 220, 0.24), 0 17px 50px 0 rgba(220,220,220,0.19);
+}
+.activity_button:active {
+    transform: translateY(4px);
+  }
+.details_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space space-around;
+    background-color: rgba(38, 37, 37, 0.4);
+    margin: 0 10%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.details_header{
+    text-decoration: underline;
+}
