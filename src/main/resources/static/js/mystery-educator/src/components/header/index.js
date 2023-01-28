@@ -9,7 +9,7 @@ const Header = () => (
         <ul className={style.navList}>
             <NavLink to='/home'>HOME</NavLink>
             <a href='http://127.0.0.1:5500/index.html' target='_blank'>ABOUT </a>
-            <NavLink to='/bored'>BORED</NavLink>
+            <NavLink to='/bored'>I'M BORED, HELP!</NavLink>
             <NavLink to='/instruments'>INSTRUMENTS</NavLink>
             <NavLink to='/nasa'>NASA</NavLink>
             <NavLink to='/contact'>CONTACT</NavLink>
