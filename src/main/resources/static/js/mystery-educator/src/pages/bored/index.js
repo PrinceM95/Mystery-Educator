@@ -44,20 +44,27 @@ export default class BoredPage extends React.Component {
         let price = this.state.price;
         let key = this.state.key;
         let link = this.state.link;
-        let accessibility = this.state.link;
+        let accessibility = this.state.accessibility;
     
         return (
           <div>
-            <h1 className={style.activity_header}>Try This! </h1>
-            <p className={style.activity}>{activity}</p>
-            <h2 className={style.details_header}>Activity Details: </h2>
-            <p className={style.details}>Type of activity: {type}</p>
-            <p className={style.details}>Price(0=Free, 1=More Expensive): {price}</p>
-            <p className={style.details}>Number of required Participants: {participants}</p>
-            <p className={style.details}>Accessibility (0=very accessible, 1=Less accessible): {accessibility}</p>
-            <p className={style.details}>Link to further details: <a href={link} target='_blank'>{link}</a></p>
-    
-            <button onClick={this.generateActivity}>New Activity</button>
+            <section className={style.activity_section}>
+                <h1 className={style.activity_header}>Try This! </h1>
+                <section className={style.activity}>
+                    <h3>{activity}</h3>
+                    <button className={style.activity_button} onClick={this.generateActivity}>New Activity!</button>
+                </section>
+            </section>
+            <section className={style.details_section}>
+                <h2 className={style.details_header}>Activity Details: </h2>
+                <section className={style.activity_details}>
+                    <p>Type of activity: {type}</p>
+                    <p>Price(0=Free, 1=More Expensive): {price}</p>
+                    <p>Number of required Participants: {participants}</p>
+                    <p>Accessibility (0=very accessible, 1=Less accessible): {accessibility}</p>
+                    <p>Link to further details: <a href={link} target='_blank' rel="noreferrer">{link}</a></p>
+                </section>
+            </section>
           </div>
         );
       }
