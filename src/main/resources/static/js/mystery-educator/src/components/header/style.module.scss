@@ -13,12 +13,12 @@ body {
     height: 5rem;
     color: white;
     // font-weight: bold;
-    background: brown;
-    // box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+    background: purple;
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
     // border-radius: 25px;
 
     & h1{
-        color: white;
+        color: gold;
         margin-left: 11rem;
         align-items: center ;
         margin-right: 100px;
@@ -43,7 +43,7 @@ body {
         align-items: center;
         text-decoration: none;
         color: white;
-        font-size: 28px;
+        font-size: 24px;
         border-radius: 6px;
         display: flex;
         min-width: 75px;

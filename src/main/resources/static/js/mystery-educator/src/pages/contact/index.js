@@ -1,8 +1,8 @@
 import React from "react";
 import style from './style.module.scss'
-import profileNate from '../../assets/Profile-pic-nate.jpg';
-import profileDonna from '../../assets/temporary-profile-pic.jpg';
-import profilePrince from '../../assets/prince_photo.jpg';
+import profileNate from '../../assets/nate2.png';
+import profileDonna from '../../assets/donna2.png';
+import profilePrince from '../../assets/prince_png.png';
 
 const ContactPage = () => {
     return (

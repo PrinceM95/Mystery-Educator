@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
 import star from '../../assets/mag-glass.png';
+import logo from '../../assets/logo_purple.gif';
 
 const HomePage = () => {
 // const colors = ["#0088FE", "#00C49F", "#FFBB28"];
@@ -39,6 +40,7 @@ const HomePage = () => {
             {/* <div id={style.page_title}> Jac's Mystery Educator! </div> */}
             <div id={style.page_quote}> "Vincit Qui Se Vincit" </div>
             <img src={star} className={style.star_img} alt="shooting star"></img>
+            <img src={logo} className={style.logo} alt="logo"></img>
         </div>  
     ); 
 }

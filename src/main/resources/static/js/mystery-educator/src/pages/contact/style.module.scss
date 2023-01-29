@@ -1,8 +1,9 @@
 .profile_img{
-    max-width: 300px;
-    height: 175px;
+    max-width: 450px;
+    height: 195px;
     border-radius: 25px;
-    box-shadow: 4px 4px 8px white, -4px -4px 8px white;
+    justify-content: center;
+    // box-shadow: 4px 4px 8px white, -4px -4px 8px white;
 }
 
 .contact_page {
@@ -11,12 +12,12 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 80vh;
+    height: 85vh;
 }
 
 .profile_column {
     margin-left: 6rem;
-    width: 300px;
+    width: 450px;
     justify-content: center;
 }
 
@@ -33,24 +34,25 @@ h2 {
 
 .personal_description {
     color: white;
-    background: brown;
-    font-size:x-large;
+    background: purple;
+    font-size:26px;
     border-radius: 25px;
     text-align:  center;
 }
 
 .position_title {
     text-align: center;
-    font-size:x-large;
+    font-size:xx-large;
     color: white;
-    background: brown;
+    // background: brown;
     border-radius: 25px;
     text-align:  center;
 }
 
 .profile_name{
     color: white;
-    background: brown;
+    // background: brown;
     border-radius: 25px;
     text-align:  center;
+    font-size: xx-large;
 }

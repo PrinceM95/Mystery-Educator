@@ -46,12 +46,22 @@ img {
 }
 
 .star_img{
-    max-width: 800px;
-    height: 550px;
+    max-width: 950px;
+    height: 660px;
     border-radius: 25px;
     position: absolute;
-    top: 267px;
-    left: 730px;
+    top: 225px;
+    left: 670px;
+}
+
+.logo{
+    max-width: 530px;
+    height: 315px;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    left: 725px;
+    // box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
 }
 
 body {
@@ -76,10 +86,10 @@ body {
 
 #page_quote {
     position: absolute;
-    bottom: 250px;
-    left: 750px;
+    bottom: 220px;
+    left: 790px;
     font-size: 45px;
-    background: brown;
-    box-shadow: 4px 4px 8px white, -4px -4px 8px white;
+    background: purple;
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
     border-radius: 25px;
 }
