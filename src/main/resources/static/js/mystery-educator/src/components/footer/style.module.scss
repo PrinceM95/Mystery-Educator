@@ -1,17 +1,19 @@
 .footer{
-    // display: flex;
-    // justify-content: center;
-    font-size: 27px;
-    font-weight: bold;
-    background-color: black;
-    color: gold;
-    height: 7rem;
-    // align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
+    // border-radius: 25px;
+    font-size: 23px;
+    background: #8B0000;
+    color: white;
+    height: 5rem;
     position: absolute;
     text-align: center;
     left: 0;
     bottom: 0;
     right: 0;
+    width: 100%
 }
 
 
