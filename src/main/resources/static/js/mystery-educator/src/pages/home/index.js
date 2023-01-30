@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
 import star from '../../assets/mag-glass.png';
-import logo from '../../assets/logo_purple.gif';
+import logo from '../../assets/logo_darkred.gif';
 
 const HomePage = () => {
 // const colors = ["#0088FE", "#00C49F", "#FFBB28"];
