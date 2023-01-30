@@ -1,18 +1,60 @@
-.instrument_icons {
+
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 50vh;
     align-items: center;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+    background: #8B0000;
+    box-shadow: 4px 4px 8px gold, -4px -4px 8px gold;
+    bottom: -200px;
+    left: 80px;
+
+    & .overlay {
+        position: absolute;
+        text-align: center;
+        font-size: xx-large;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 25px;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .1s ease;
+        background-color: #8b0000;
+    }
 }
 
-.instrument_icons > span {
+.container {
     height: 250px;
-    width: 250px;
+    width: 200px;
     margin-left: 2rem;
     border-radius: 25px;
     padding: 1px 1px;
-    background: #8B0000;
-    box-shadow: 4px 4px 8px gold, -4px -4px 8px gold;
+    bottom: -150px;
 }
+
+.container {
+    position: relative;
+    width: 300px;
+}
+
+.container:hover .overlay {
+    opacity: 0.6;
+}
+
+// .projeto01 {
+//     color: gold;
+//     font-size: 20px;
+//     position: center;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     -ms-transform: translate(-50%, -50%);
+//     text-align: center;
+// }
