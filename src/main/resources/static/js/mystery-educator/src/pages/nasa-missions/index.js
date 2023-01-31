@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import style from "./style.module.scss";
+import nasa from '../../assets/rocket_kid.png';
 
 import Axios from "axios";
 
@@ -81,9 +82,10 @@ const NasaPage = () => {
 
   return (
     <div>
-      <h2>Lets explore some of Nasa's most exciting Mission!</h2>
+      <h2>Lets explore some of Nasa's most exciting Missions!</h2>
       {loading ? <h3>Loading...</h3> : 
       <section className={style.missions}>
+      <div><img src={nasa} class={style.image} alt="active"></img></div>
         <article className={style.nasa_vid}>
         <h3 className={style.nasa_vid_header}>James Webb Space Telescope</h3>
           <video width="320" height="240" controls>

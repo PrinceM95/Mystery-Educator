@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './style.module.scss';
+import active from '../../assets/stay_active.png';
 
 export default class BoredPage extends React.Component {
     constructor(props) {
@@ -58,6 +59,7 @@ export default class BoredPage extends React.Component {
             <section className={style.details_section}>
                 <h2 className={style.details_header}>Activity Details: </h2>
                 <section className={style.activity_details}>
+                <div><img src={active} class={style.image} alt="active"></img></div>
                     <p>Type of activity: {type}</p>
                     <p>Price(0=Free, 1=More Expensive): {price}</p>
                     <p>Number of required Participants: {participants}</p>

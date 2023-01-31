@@ -9,6 +9,7 @@ div{
     padding-bottom: 15px;
     border: 2px solid black;
     border-radius: 5px;
+    // font-size: 20px;
 }
 .activity_header{
     display: flex;
@@ -52,3 +53,19 @@ div{
 .details_header{
     text-decoration: underline;
 }
+
+.image{
+    float: right;
+    max-width: 50%;  
+    height: auto; 
+    margin-left: 10px; 
+    position: fixed; 
+    right: 10%;
+    top: 320px;
+    max-width: 20%;
+}
+
+img {  
+    max-width: 90%;  
+    height: auto;  
+    }  
