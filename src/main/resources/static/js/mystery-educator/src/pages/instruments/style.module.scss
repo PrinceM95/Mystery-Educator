@@ -7,11 +7,14 @@
     align-items: center;
     float: left;
     padding: 20px;
-    border: 2px solid red;
+    border: 2px solid #8B0000;
     background: #8B0000;
     box-shadow: 4px 4px 8px gold, -4px -4px 8px gold;
-    bottom: -200px;
+    bottom: -75px;
     left: 80px;
+    border-radius: 25px;
+    padding: 2px 2px;
+    margin-left: 2rem;
 
     & .overlay {
         position: absolute;
@@ -26,17 +29,8 @@
         width: 100%;
         opacity: 0;
         transition: .1s ease;
-        background-color: #8b0000;
+        background-color: black;
     }
-}
-
-.container {
-    height: 250px;
-    width: 200px;
-    margin-left: 2rem;
-    border-radius: 25px;
-    padding: 1px 1px;
-    bottom: -150px;
 }
 
 .container {
@@ -48,13 +42,20 @@
     opacity: 0.6;
 }
 
-// .projeto01 {
-//     color: gold;
-//     font-size: 20px;
-//     position: center;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     -ms-transform: translate(-50%, -50%);
-//     text-align: center;
-// }
+.kid_band{
+    justify-content: center;
+    border-radius: 25px;
+    height: 30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+h2 {
+    font-size:50px;
+    line-height: 40px;
+    text-align: center;
+    padding: 50px 20px 5px 2;
+  }

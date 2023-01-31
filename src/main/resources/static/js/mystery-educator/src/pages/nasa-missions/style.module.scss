@@ -9,7 +9,13 @@ article{
 }
 
 video{
-    border: 2px white solid;
+    border: 2px gold solid;
     border-radius: 5px;
     background-color: black;
+}
+
+.image{
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px gold, -1px -1px 12px gold;
+    background: black;
 }
