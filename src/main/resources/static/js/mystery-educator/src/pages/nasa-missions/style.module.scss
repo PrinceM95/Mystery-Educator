@@ -1,4 +1,15 @@
 .missions{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+article{
+    text-align: center;
+}
+
+video{
+    border: 2px white solid;
+    border-radius: 5px;
+    background-color: black;
 }
