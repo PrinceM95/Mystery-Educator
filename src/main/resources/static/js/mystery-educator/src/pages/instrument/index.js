@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import style from './style.module.scss';
 import Axios from 'axios';
 import { useParams } from 'react-router-dom';
 
@@ -28,13 +28,13 @@ const InstrumentPage = () => {
     }, [instrument])
     
     return (
-        <div>
-           
+        <div className={style.content}>
+            
             {loading ? <h3>Loading...</h3> : 
                 <div key={instrument.id}>
-                    <h1>{instrument.instrumentName}</h1> 
-                    <p>{instrument.description}</p>
-                    <h3>{instrument.famousArtist}</h3>
+                    <h1 className={style.instrument_name}>{instrument.instrumentName}</h1> 
+                    <p className={style.description}>Description: {instrument.description}</p>
+                    <h3 className={style.famous_artist}>{instrument.famousArtist}</h3>
                 </div>
                 
             }

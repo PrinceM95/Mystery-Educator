@@ -83,9 +83,10 @@ const NasaPage = () => {
   return (
     <div>
       <h2>Lets explore some of Nasa's most exciting Missions!</h2>
+      <div className={style.content_section}>
+      <div><img src={nasa} class={style.image} alt="active"></img></div>
       {loading ? <h3>Loading...</h3> : 
       <section className={style.missions}>
-      <div><img src={nasa} class={style.image} alt="active"></img></div>
         <article className={style.nasa_vid}>
         <h3 className={style.nasa_vid_header}>James Webb Space Telescope</h3>
           <video width="320" height="240" controls>
@@ -112,6 +113,7 @@ const NasaPage = () => {
         </article>
       </section>
       }
+      </div>
     </div>
   );
 };
