@@ -11,6 +11,7 @@ import TableOfContentsPage from '../../pages/table-of-contents';
 
 const PageSwitch = () => (
     <Routes>
+        <Route index element={<HomePage />} />
         <Route exact path='/home' element={<HomePage />} />
         <Route exact path={'/table-of-contents'} element={<TableOfContentsPage />} />
         <Route exact path={'/contact'} element={<ContactPage />} />

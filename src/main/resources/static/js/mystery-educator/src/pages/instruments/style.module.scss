@@ -1,20 +1,21 @@
 
-.container {
+.instrument_section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    // justify-content: center;
     width: 100%;
     align-items: center;
     float: left;
-    padding: 20px;
+    // padding: 20px;
     border: 2px solid #8B0000;
     background: #8B0000;
     box-shadow: 4px 4px 8px gold, -4px -4px 8px gold;
-    bottom: -75px;
-    left: 80px;
+    // bottom: -75px;
+    // left: 80px;
     border-radius: 25px;
     padding: 2px 2px;
-    margin-left: 2rem;
+    // margin-left: 2rem;
 
     & .overlay {
         position: absolute;
@@ -32,6 +33,7 @@
         background-color: black;
     }
 }
+
 
 .container {
     position: relative;
