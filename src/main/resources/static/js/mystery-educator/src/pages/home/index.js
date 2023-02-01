@@ -12,6 +12,6 @@ const HomePage = () => {
             <img src={logo} className={style.logo} alt="logo"></img>
         </div>
     ); 
-  }
+}
 
 export default HomePage;

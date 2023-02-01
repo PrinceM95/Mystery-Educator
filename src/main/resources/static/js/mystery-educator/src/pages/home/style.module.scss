@@ -27,7 +27,7 @@ img {
     border-radius: 25px;
     position: absolute;
     top: 225px;
-    left: 670px;
+    left: 610px;
 }
 
 .logo{
@@ -36,8 +36,7 @@ img {
     border-radius: 50%;
     position: absolute;
     top: 260px;
-    left: 725px;
-    // box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
+    left: 665px;
 }
 
 body {
@@ -46,25 +45,3 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-#page_title {
-    height: 45vh;
-    bottom: 725px;
-}
-
-#page_title, #page_quote {
-    color: white;
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 45px;
-    bottom: 725px;
-}
-
-// #page_quote {
-//     margin: 50px 38%;
-//     font-size: 45px;
-//     background: #8B0000;
-//     box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
-//     border-radius: 25px;
-//     width: 25%;
-// }
