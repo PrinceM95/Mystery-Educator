@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
 import star from '../../assets/mag-glass.png';
-import logo from '../../assets/motto2.gif';
+import logo from '../../assets/slides.gif';
 
 const HomePage = () => {
 
