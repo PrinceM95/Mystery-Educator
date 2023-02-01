@@ -6,12 +6,19 @@
     width: 100%;
     align-items: center;
     float: left;
-    // border: 2px solid #8B0000;
-    // background: #8B0000;
-    // box-shadow: 4px 4px 8px gold, -4px -4px 8px gold;
     border-radius: 25px;
     padding: 2px 2px;
     margin-left: -1rem;
+
+    &.instrument_section:hover {
+        transition: .5s;
+        font-weight: bold;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+        outline: none;
+        color: gold;
+    }
 }
 
 .image1{
