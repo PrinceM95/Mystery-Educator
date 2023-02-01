@@ -3,37 +3,72 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    // justify-content: center;
     width: 100%;
     align-items: center;
     float: left;
-    // padding: 20px;
-    border: 2px solid #8B0000;
-    background: #8B0000;
-    box-shadow: 4px 4px 8px gold, -4px -4px 8px gold;
-    // bottom: -75px;
-    // left: 80px;
+    // border: 2px solid #8B0000;
+    // background: #8B0000;
+    // box-shadow: 4px 4px 8px gold, -4px -4px 8px gold;
     border-radius: 25px;
     padding: 2px 2px;
-    // margin-left: 2rem;
-
-    & .overlay {
-        position: absolute;
-        text-align: center;
-        font-size: xx-large;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        border-radius: 25px;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .1s ease;
-        background-color: black;
-    }
+    margin-left: -1rem;
 }
 
+.image1{
+    border-radius: 50%;
+    display: flex;
+    float: right; 
+    height: auto; 
+    margin-left: 10px; 
+    position: fixed; 
+    right: 78%;
+    top: 320px;
+    max-width: 20%;
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
+    background: purple;
+}
+
+.image2{
+    border-radius: 50%;
+    display: flex;
+    float: right; 
+    height: auto; 
+    margin-left: 10px; 
+    position: fixed; 
+    right: 54%;
+    top: 320px;
+    max-width: 20%;
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
+    background: purple;
+}
+
+.image3{
+    border-radius: 50%;
+    display: flex;
+    float: right; 
+    height: auto; 
+    margin-left: 10px; 
+    position: fixed; 
+    right: 27%;
+    top: 320px;
+    max-width: 20%;
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
+    background: purple;
+}
+
+.image4{
+    border-radius: 50%;
+    display: flex;
+    float: right; 
+    height: auto; 
+    margin-left: 10px; 
+    position: fixed; 
+    right: 2%;
+    top: 320px;
+    max-width: 20%;
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
+    background: purple;
+}
 
 .container {
     position: relative;
@@ -44,20 +79,9 @@
     opacity: 0.6;
 }
 
-.kid_band{
-    justify-content: center;
-    border-radius: 25px;
-    height: 30vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
-}
-
-h2 {
+h2{
     font-size:50px;
     line-height: 40px;
     text-align: center;
     padding: 50px 20px 5px 2;
-  }
+}
