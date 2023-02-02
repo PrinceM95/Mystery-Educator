@@ -16,19 +16,19 @@ public class Populator implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Instrument piano = new Instrument("piano", "a keyboard instrument " +
+        Instrument piano = new Instrument("Piano", "a keyboard instrument " +
                 "that you play by pressing black and white keys. Pressing keys cause hammers" +
                 "to hit strings and produce sounds", "Famous Pianist: Ludwig Van Beethoven");
 
-        Instrument guitar = new Instrument("guitar", "a stringed instrument with a " +
+        Instrument guitar = new Instrument("Guitar", "a stringed instrument with a " +
                 "flat body, a long neck with frets, and six strings that are played with the fingers or with a " +
                 "pick", "Famous Guitarist: Jimi Hendrix");
 
-        Instrument trumpet = new Instrument("trumpet", "a brass instrument that has a metal tube with one" +
+        Instrument trumpet = new Instrument("Trumpet", "a brass instrument that has a metal tube with one" +
                 "narrow end and one wide end. It is played by pressing three buttons to change notes.",
                 "Famous Trumpet Player: Louis Armstrong");
 
-        Instrument cello = new Instrument("cello", "a stringed instrument that is large and wooden with four strings." +
+        Instrument cello = new Instrument("Cello", "a stringed instrument that is large and wooden with four strings." +
                 "It is played with a bow while sitting down and holding it upright between your legs.",
                 "Famous Cellist: Yo-Yo Ma");
 
