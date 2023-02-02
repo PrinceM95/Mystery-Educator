@@ -5,10 +5,11 @@ div{
 
 .activity_section{
     background-color: rgba(38, 37, 37, 0.4);
-    margin: 5% 10% 0;
+    margin: 2% 10% 0;
     padding-bottom: 15px;
-    border: 2px solid black;
+    border: 2px solid #8B0000;
     border-radius: 5px;
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
     // font-size: 20px;
 }
 .activity_header{
@@ -46,8 +47,9 @@ div{
     align-items: center;
     align-content: space space-around;
     background-color: rgba(38, 37, 37, 0.4);
-    margin: 0 10%;
-    border: 2px solid black;
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
+    margin: 0 10% 5%;
+    border: 2px solid #8B0000;
     border-radius: 5px;
 }
 .details_header{
@@ -61,7 +63,7 @@ div{
     margin-left: 10px; 
     position: fixed; 
     right: 10%;
-    top: 380px;
+    top: 300px;
     max-width: 20%;
 }
 
@@ -69,3 +71,7 @@ img {
     max-width: 90%;  
     height: auto;  
     }  
+
+    .activity_details{
+        font-size: 18px;
+    }
