@@ -28,7 +28,7 @@ const ContactPage = () => {
                     <img src={profilePrince} className={style.profile_img} alt="profile pic prince">
                     </img>
                     <p className={style.position_title}>DEVELOPER</p>
-                    <p className={style.personal_description}>About Prince</p>
+                    <p className={style.personal_description}>Prince is a recent social work graduate and an eager, dedicated learner transitioning into the field of software development. He enjoys learning about technology along with helping others. He plans on combining both interests as a software developer.</p>
                 </article>
             </section>
         </div>

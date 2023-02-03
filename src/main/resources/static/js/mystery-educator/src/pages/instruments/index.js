@@ -39,7 +39,9 @@ const InstrumentsPage = () => {
             <div className={style.instrument_section}>
             {loading ? <h3>Loading...</h3> : instruments.map(instrument => (
                 <a key={instrument.id} href={`instruments/${instrument.id}`}>
+                <div className={style.instrument_section}>
                     <h2>{instrument.instrumentName}</h2>
+                </div>
                 </a>
             ))}
             </div>

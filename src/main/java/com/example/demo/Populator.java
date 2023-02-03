@@ -18,7 +18,8 @@ public class Populator implements CommandLineRunner {
 
         Instrument piano = new Instrument("Piano", "a keyboard instrument " +
                 "that you play by pressing black and white keys. Pressing keys cause hammers" +
-                "to hit strings and produce sounds", "Famous Pianist: Ludwig Van Beethoven");
+                "to hit strings and produce sounds!", "Famous Pianist: " +
+                "Ludwig Van Beethoven");
 
         Instrument guitar = new Instrument("Guitar", "a stringed instrument with a " +
                 "flat body, a long neck with frets, and six strings that are played with the fingers or with a " +
